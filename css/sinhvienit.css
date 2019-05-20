@@ -1,0 +1,292 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+body {
+    background: #121212 url(../images/main-bg.gif);
+}
+
+.wrapper {
+    width: 100%;
+    height: 40px;
+    font-family: tahoma, sans-serif, arial;
+}
+
+.navtop {
+    width: 100%;
+    height: 40px;
+    background: #464646;
+    position: fixed;
+}
+
+.navtop-left {
+    width: 65%;
+    height: auto;
+    float: left;
+}
+
+.navtop-right {
+    width: 35%;
+    height: auto;
+    float: right;
+}
+
+.navtop .navtop-left ul,
+.navtop .navtop-right ul {
+    text-align: center;
+    background: #464646;
+}
+
+.navtop .navtop-left ul li,
+.navtop .navtop-right ul li {
+    display: inline-table;
+    width: 75px;
+    height: 40px;
+    line-height: 40px;
+    position: relative;
+}
+
+.navtop .navtop-left ul li a,
+.navtop .navtop-right ul li a {
+    color: white;
+    display: block;
+    font-size: 14px;
+}
+
+.navtop .navtop-left ul li a:hover,
+.navtop .navtop-right ul li a:hover {
+    background: #121212;
+}
+
+.navtop .navtop-left ul li > .sub-menu {
+    display: none;
+    position: absolute;
+}
+
+.navtop .navtop-left ul li:hover .sub-menu {
+    display: block;
+}
+
+.headerline {
+    width: 100%;
+    height: 3px;
+    background: #37B2C9;
+    position: fixed;
+    top: 40px;
+    left: 0px;
+}
+
+#banner {
+    width: 100%;
+    height: 120px;
+    background: #37b2c9;
+    padding-top: 40px;
+}
+
+#banner img {
+    padding: 30px 170px;
+}
+
+.nav {
+    height: 50px;
+    background: #F0F0F0;
+    padding: 0 0 0 175px;
+}
+
+.nav-left {
+    width: 48%;
+    height: 50px;
+    float: left;
+}
+
+.nav .nav-left a img#home {
+    width: 30px;
+    height: 30px;
+    float: left;
+    padding: 10px 10px 0 0;
+}
+
+a.nav-text {
+    line-height: 50px;
+    float: left;
+}
+
+img.left {
+    float: left;
+    padding: 3px 5px 0 5px;
+}
+
+.nav-right {
+    height: 50px;
+    float: left;
+}
+
+#search {
+    width: 250px;
+    height: 30px;
+    float: left;
+    padding-left: 5px;
+    margin: 10px 0 0 150px;
+    border: 1px solid #c1bfbf;
+    outline: none
+}
+
+input.submit {
+    width: 30px;
+    height: 30px;
+    margin: 10px 0 0 0;
+    background: url(../images/search.png) 3px 3px no-repeat #ff742c;
+    border: 1px solid #c1bfbf;
+    outline: none
+}
+
+input.submit:hover {
+    background: url(../images/search.png) 3px 3px no-repeat #39bd56;
+}
+
+.content {
+    width: 75%;
+    height: 2000px;
+    margin: 0 auto;
+    background: #f9f9f9;
+}
+
+#dangky {
+    border: 1px solid #e0e0e0;
+    margin: 10px;
+}
+
+.h1 {
+    padding: 10px 0 10px 10px;
+    border-left: 10px solid #f9f9f9;
+    border-right: 10px solid #f9f9f9;
+    border-top: 10px solid #f9f9f9;
+    background: #f2f2f2;
+}
+
+.h2 {
+    border: 10px solid #f9f9f9;
+    padding: 10px 0 10px 10px;
+    font-weight: bold;
+    color: #4f52d7;
+    background: #c7c7c7;
+}
+
+.h3 {
+    color: black;
+    font-weight: 600;
+    border-top: 1px solid #e0e0e0;
+    margin-top: 10px;
+}
+
+table {
+    width: 900px;
+    padding-left: 10px;
+}
+
+.input-right {
+    width: 300px;
+    padding: 5px;
+    margin: 3px 0;
+}
+
+.input-left {
+    padding-right: 100px;
+    width: 180px
+}
+
+#top10 {
+    line-height: 1.5;
+}
+
+#textarea {
+    width: 920px;
+    height: 100px;
+    padding: 10px;
+}
+
+.marginleft {
+    margin: 10px 0 10px 25px;
+}
+
+.chubeo {
+    font-weight: bold;
+}
+
+.button {
+    padding: 8px 10px;
+    color: white;
+    background: #25AAE1;
+    border: none;
+}
+
+.button:hover {
+    background: #404040;
+}
+
+.btn1 {
+    margin-left: 750px;
+}
+
+.footer {
+    width: 100%;
+    height: 180px;
+    background: #f1f1f1;
+}
+
+.thongke {
+    width: 29%;
+    line-height: 22px;
+    float: left;
+    margin-top: 20px;
+}
+
+.infor {
+    width: 34%;
+    margin-left: 185px;
+}
+
+.lienket {
+    width: 15%;
+}
+
+.color {
+    color: #37b8fb;
+    font-family: 'Century Gothic', Tahoma, Arial, Helvetica, verdana, sans-serif;
+    font-size: 16px;
+}
+
+.footerlink {
+    width: 100%;
+    height: 70px;
+    background: #dbdadb;
+    padding: 27px 165px 0 185px;
+    box-sizing: border-box;
+}
+
+.english {
+    background: #ef3f36;
+}
+
+.lienhe {
+    background: #8dc63f;
+}
+
+.btn-right {
+    float: right;
+    margin: -7px 3px;
+    background: #aaa8a9;
+}
+
+.btn-right:hover {
+    background: #f3925f;
+}
